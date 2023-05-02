@@ -9,8 +9,20 @@
       Title="Page3">
 
     <Grid>
-        <Image x:Name="Документ1_jpg" Margin="-1,1,-1,0" Source="Документ1.jpg" Stretch="Fill"/>
-        <Button Width="50" Height="50" Margin="137,120,605,249" Click="Button_Click" Opacity="0" />
-        
+        <StackPanel Margin="20,19,8,10">
+            <TextBlock FontSize="50" Foreground="Gray">Информация о компании</TextBlock>
+            <TextBlock FontSize="20" Foreground="Gray"> -> Производство лучших видеокарт, зарекомендовавших себя, по всему миру</TextBlock>
+            <TextBlock FontSize="20" Foreground="Gray"> -> Мы используем лучшие графичиские процессооры Gachimuchi</TextBlock>
+            <TextBlock FontSize="20" Foreground="Gray"> -> Так же, в каждой видеокрте стоит лучшая память, из всех на рынке</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="20,224,155,-224">
+            <TextBlock FontSize="20" Foreground="Gray">Наши детали:</TextBlock>
+            <TextBlock FontSize="15" Foreground="Gray">Графический процесссор Cachimuchi BTS4010</TextBlock>
+            <TextBlock FontSize="15" Foreground="Gray">Втроенная видеопамять на 666ГБ</TextBlock>
+            <TextBlock FontSize="15" Foreground="Gray">Разъемы подключения к монитору, с поддержкой частоты до 7ГЦ</TextBlock>
+            <TextBlock FontSize="15" Foreground="Gray">Лучшие декодеры</TextBlock>
+            <TextBlock FontSize="15" Foreground="Gray">Самая тихая, и охлаждающая охлаждающая система, с 5 винтами</TextBlock>
+
+        </StackPanel>
     </Grid>
 </Page>

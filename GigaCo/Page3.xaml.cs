@@ -23,12 +23,6 @@ namespace GigaCo
         public Page3()
         {
             InitializeComponent();
-            
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            менеджер._NavigationFrame.Navigate(new Page2());
         }
     }
 }
